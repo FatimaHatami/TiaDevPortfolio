@@ -9,8 +9,9 @@
     cursor: pointer;
     font-weight: 600;
     border-radius: 4px;
-
+    position: relative;
+    color: inherit;
 }
 .primary-btn{
-    background-color: #FF9494;
+    border: 1px solid $primary-color;
 }

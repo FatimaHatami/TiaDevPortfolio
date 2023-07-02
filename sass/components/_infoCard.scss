@@ -2,12 +2,12 @@
     position: fixed;
     top: 10%;
     bottom: 10%;
-    left: 10%;
+    left: 3%;
     width: 400px;
     height: auto;
     border-radius: 12px;
-    // box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.2);
-    border: 2px solid #FFE3E1;
+    border: 2px solid $secondary-color;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding:15px;
 
     &__header{
@@ -52,13 +52,22 @@
     &__location{
         font-size: 2rem;
         font-weight: 300;
-        margin:.5rem 0 2rem 0;
+        margin:1rem 0 2rem 0;
+    }
+    &__copyrights{
+        font-size: 1.4rem;
+        font-weight: 500;
+        opacity: .5;
     }
     &__socials{
         font-size: 1.5rem;
+        margin: 2rem 0;
         *{
             margin: .5rem;
         }
         margin-bottom: 3rem;
+    }
+    .btn{
+        margin-top: .5rem;
     }
 }

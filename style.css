@@ -1,5 +1,6 @@
 body {
   font-family: "Work Sans", sans-serif;
+  color: #1d1c1c;
 }
 
 html {
@@ -18,11 +19,12 @@ html {
   position: fixed;
   top: 10%;
   bottom: 10%;
-  left: 10%;
+  left: 3%;
   width: 400px;
   height: auto;
   border-radius: 12px;
-  border: 2px solid #FFE3E1;
+  border: 2px solid #E5D9B6;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 15px;
 }
 .info-card__header {
@@ -64,14 +66,23 @@ html {
 .info-card__location {
   font-size: 2rem;
   font-weight: 300;
-  margin: 0.5rem 0 2rem 0;
+  margin: 1rem 0 2rem 0;
+}
+.info-card__copyrights {
+  font-size: 1.4rem;
+  font-weight: 500;
+  opacity: 0.5;
 }
 .info-card__socials {
   font-size: 1.5rem;
+  margin: 2rem 0;
   margin-bottom: 3rem;
 }
 .info-card__socials * {
   margin: 0.5rem;
+}
+.info-card .btn {
+  margin-top: 0.5rem;
 }
 
 .btn {
@@ -85,14 +96,20 @@ html {
   cursor: pointer;
   font-weight: 600;
   border-radius: 4px;
+  position: relative;
+  color: inherit;
 }
 
 .primary-btn {
-  background-color: #FF9494;
+  border: 1px solid #5F8D4E;
 }
 
 .main-container {
   height: 2000vh;
+  flex-direction: row-reverse;
+}
+.main-container .main {
+  width: 65%;
 }
 
 .p-15 {
@@ -109,6 +126,20 @@ html {
 
 .m-auto {
   margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.btn {
+  transition: all 0.4s;
+}
+.btn:hover {
+  transform: translateY(-5px);
+  background-color: #5F8D4E;
+  color: #f1f1f1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /*# sourceMappingURL=style.css.map */

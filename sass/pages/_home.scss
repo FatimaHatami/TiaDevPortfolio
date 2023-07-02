@@ -1,3 +1,7 @@
 .main-container{
     height: 2000vh;
+    flex-direction: row-reverse;
+    .main{
+        width: 65%;
+    }
 }
